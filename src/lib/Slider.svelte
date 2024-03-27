@@ -34,7 +34,7 @@
     </p>
   {/key} -->
   <a href="#about"
-    >Scroll down or click here to see the content <br />
+    >Gulir ke bawah atau klik disini untuk melihat konten <br />
     <span>
       <svg
         width="24"
@@ -117,7 +117,13 @@
   }
 
   a:hover {
-    background-color: #1c1c1c;
-    color: #91da32;
+    color: white;
+  }
+
+  @media (hover: hover) {
+    a:hover {
+      background-color: #1c1c1c;
+      color: #91da32;
+    }
   }
 </style>

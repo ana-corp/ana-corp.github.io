@@ -2,6 +2,7 @@
   import About from "$lib/About.svelte";
   import Contact from "$lib/Contact.svelte";
   import Header from "$lib/Header.svelte";
+  import Moto from "$lib/Moto.svelte";
   import Point from "$lib/Point.svelte";
   import Product from "$lib/Product.svelte";
   import Slider from "$lib/Slider.svelte";
@@ -38,29 +39,7 @@
   <About />
   <Product />
   <Struktur />
-  <section id="quote" class="parallax-section-6">
-    <div class="container">
-      <div class="row wow fadeInUp">
-        <div class="col-lg-12 wow fadeInUp" style="z-index:3">
-          <div id="quote-slider">
-            <div id="moto">
-              <blockquote>
-                <i class="icon-left ion-quote ion-2x highlight"></i>
-                <span>{motoPerusahaan}</span>
-                <i class="icon-right ion-quote ion-2x highlight"></i>
-              </blockquote>
-              <strong style="text-align:center; display:block;">
-                <em class="highlight">
-                  {namaPerusahaan || "Company"}
-                </em>
-                <strong> </strong></strong
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <Moto />
   <Point />
   <Contact />
   <a id="back-to-top" href={"#"}>
