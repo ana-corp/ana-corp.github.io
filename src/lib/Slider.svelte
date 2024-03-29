@@ -28,11 +28,6 @@
     </h2>
   {/each}
 
-  <!-- {#key currentSlide}
-    <p in:fly={{ y: 1000, delay: 300, duration: 600 }}>
-      {slides[currentSlide].text}
-    </p>
-  {/key} -->
   <a href="#about"
     >Gulir ke bawah atau klik disini untuk melihat konten <br />
     <span>

@@ -40,8 +40,7 @@
               <em class="highlight">
                 {namaPerusahaan || "Company"}
               </em>
-              <strong> </strong></strong
-            >
+            </strong>
           </div>
         </div>
       </div>
@@ -51,13 +50,14 @@
 
 <style>
   svg {
-    vertical-align: text-top;
+    vertical-align: middle;
     fill: #91da32;
-    transform: translateY(-30%);
+    transform: translateY(-20%);
+    display: inline-block;
   }
 
   .inverse {
-    transform: rotateY(180deg) translateY(-30%);
+    transform: rotateY(180deg) translateY(-20%);
   }
 
   #quote blockquote span {

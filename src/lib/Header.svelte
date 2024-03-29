@@ -18,7 +18,7 @@
 </div> -->
 
 <header>
-  <nav class="navbar navbar-default navbar-alt">
+  <nav class="navbar-default navbar-alt">
     <div id="container">
       <div class="navbar-header">
         <a class="navbar-brand to-top" rel="home" href={"#"}>

@@ -1,19 +1,26 @@
 export const namaPerusahaan = "Alena Nusantara Abadi"
 export const overViewPerusahaan = ""
-export const sejarahPerusahaan = `Perusahaan Kami berdiri pada tanggal 20 September 2019 dengan nama lengkap PT.ALENA NUSANTARA ABADI. Awalnya, Perusahaan Kami hanya melayani Pasar lokal dengan Fokus Pada Pengadaan hasil bumi dan Kimia (Asam Sulfat dan Coustik soda Liquid). 
-Untuk Sektor Industri kecil dan menengah. Namun, dengan komitmen untuk memberikan layanan 
-berkualitas dan Kepuasan konsumen, kami berhasil tumbuh pesat dan Memperluas jangkauan layanan kami. Pada tahun-tahun berikutnya, Kami Secara Progresif mengembangkan dan menambahkan layanan dan Jasa. Perlahan Kami dalam bidang Penyalur tenaga kerja dan Sudah bekerja Sama dengan beberapa Perusahaan besar 
-Selain itu Perusahaan Kami dalam waktu dekat ini 
-akan mengeluarkan Produk dalam bentuk Parfume, Karena menurut kami Pada Jaman Ini Parfume Sudah menjadi Kebutuhan publik,
-Kini PT. ALENA NUSANTARA ABADI telah menjadi Perusahaan Yang diakui 
-dalam industri Pengadaan barang (hasil bumi dan kimia) dan Jasa Penyalur tenaga kerja. 
-Sejak tahun 2019 hingga Saat ini Kami Selalu Komitmen memberikan Kualitas dan Jasa Pelayanan terbaik 
-`;
+export const sejarahPerusahaan = [
+    `Perusahaan Kami berdiri pada tanggal <strong>20 September 2019</strong> dengan nama lengkap 
+    <strong>PT.ALENA NUSANTARA ABADI</strong>. Awalnya, Perusahaan Kami hanya melayani Pasar lokal dengan 
+fokus pada pengadaan hasil bumi dan kimia (Asam Sulfat dan Coustik soda Liquid) 
+untuk sektor industri kecil dan menengah. 
+Namun, dengan komitmen untuk memberikan layanan 
+berkualitas dan kepuasan konsumen, kami berhasil tumbuh pesat dan Memperluas jangkauan layanan kami.`
+    ,
+    `Pada tahun-tahun berikutnya, kami secara progresif mengembangkan dan menambahkan layanan dan jasa. 
+Perlahan kami dalam bidang penyalur tenaga kerja dan sudah bekerja sama dengan beberapa perusahaan besar 
+selain itu Perusahaan Kami dalam waktu dekat ini akan mengeluarkan produk dalam bentuk parfume, 
+karena menurut kami pada zaman ini parfume sudah menjadi Kebutuhan publik,
+Kini <strong>PT. ALENA NUSANTARA ABADI</strong> telah menjadi perusahaan yang diakui 
+dalam industri Pengadaan barang (hasil bumi dan kimia) dan jasa penyalur tenaga kerja. 
+sejak tahun 2019 hingga saat ini kami selalu berkomitmen untuk memberikan kualitas dan jasa pelayanan terbaik 
+`]
 
 export const slides = [
     {
         text: "ALENA NUSANTARA ABADI",
-        img: "img/slides/slide1.jpeg",
+        img: "img/slides/slide3.jpeg",
     },
     {
         text: "KOMITMEN, KUALITAS, INTEGRITAS TINGGI",
